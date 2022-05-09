@@ -1,0 +1,12 @@
+
+This is rsync.opensuse.org, public rsync server of openSUSE.org,
+limited to 50 connections.
+
+If you run a public mirror, please get in contact so we can give you 
+access to the stage rsync server.
+You'll find conditions for access and further information at
+http://en.opensuse.org/Mirror_Infrastructure
+
+Thanks!
+admin@opensuse.org
+

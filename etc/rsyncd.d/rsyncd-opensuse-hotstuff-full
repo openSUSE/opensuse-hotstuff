@@ -1,0 +1,49 @@
+# comments and empty lines are allowed...
+# hints: 
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
+- /opensuse/repositories
+- 10.3-test/***
+- 11.0-test/***
+- 11.1-test/***
+- 11.2-test/***
+- /opensuse/distribution/leap/42.*/
+- /opensuse/distribution/leap/15.0
+- /opensuse/distribution/leap/15.1
+- /opensuse/debug
+- /opensuse/source
+- /opensuse/tumbleweed
+- /opensuse/history
+- /opensuse/factory
+- /opensuse/factory-tested
+- *Milestone*/iso/*DVD-Build*-x86_64.iso
+- *Milestone*/iso/*DVD-Build*-i586.iso
+- *Milestone*/iso/*DVD-Build*-ppc.iso
+- /opensuse/ports/armv7hl/debug
+- /opensuse/ports/armv7hl/tumbleweed
+- /opensuse/ports/armv7hl/factory
+- /opensuse/ports/armv7hl/source
+- /opensuse/ports/armv6hl/debug
+- /opensuse/ports/armv6hl/tumbleweed
+- /opensuse/ports/armv6hl/factory
+- /opensuse/ports/armv6hl/source
+- /opensuse/ports/aarch64/debug
+- /opensuse/ports/aarch64/tumbleweed
+- /opensuse/ports/aarch64/factory
+- /opensuse/ports/aarch64/source
+- /opensuse/ports/zsystems/debug
+- /opensuse/ports/zsystems/tumbleweed
+- /opensuse/ports/zsystems/factory
+- /opensuse/ports/zsystems/source
+- /opensuse/ports/ppc/debug
+- /opensuse/ports/ppc/tumbleweed
+- /opensuse/ports/ppc/factory
+- /opensuse/ports/ppc/source
+- /opensuse/ports/riscv/debug
+- /opensuse/ports/riscv/tumbleweed
+- /opensuse/ports/riscv/factory
+- /opensuse/ports/riscv/source
+- /opensuse/ports/update/42.*
++ *

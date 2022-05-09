@@ -1,0 +1,45 @@
+# comments and empty lines are allowed...
+# hints: 
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
++ /distribution/12.2
++ /distribution/12.2/repo
+- /distribution/12.2/*
++ /distribution/.timestamp*
+- /distribution/*
+
+- /distribution/11.1/repo/**/ppc/
+
+- /repositories/
+
+
+- *debuginfo*
+- *debugsource*
+
++ /update/12.2-non-oss
++ /update/12.2
++ /update/12.1
+# /update/11.4
+# only deltas
+#- /update/**.i586.rpm
+- /update/**.x86_64.rpm
+- /update/*test/
+- /update/**/rpm/ppc/
+- /update/**/rpm/ppc64/
+- /update/**/rpm/src/
+- /update/**/repoparts/
+- /update/**/src/
+- /update/**/nosrc/
+- /update/*
+
+- /factory-snapshot/
+- /factory-tested/
+
+- /factory/
+- /tools/
+- /debug/
+- /source/
+- /projects/
+- /ports/

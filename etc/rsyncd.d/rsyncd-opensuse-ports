@@ -1,0 +1,12 @@
+# comments and empty lines are allowed...
+# hints: 
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
++ /ports/
++ /ports/**
+- /ports/**/15.0
+- /ports/**/15.1
+- /ports/**/42.3*
+- *

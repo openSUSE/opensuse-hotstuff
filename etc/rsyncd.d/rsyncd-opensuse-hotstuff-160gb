@@ -1,0 +1,106 @@
+# comments and empty lines are allowed...
+# hints:
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
+
++ /distribution/12.2
++ /distribution/12.2/iso
++ /distribution/12.2/repo
+- /distribution/12.2/*
+
++ /distribution/.timestamp*
+- /distribution/*-RC*
+- /distribution/*-Milestone*
+- /distribution/*
+
+- *debuginfo*
+- *debugsource*
+
++ /update/12.2-non-oss
++ /update/12.2
++ /update/12.1
+- /update/**/rpm/ppc/
+- /update/**/rpm/ppc64/
+- /update/**/rpm/src/
+- /update/**/repoparts/
+- /update/**/src/
+- /update/**/nosrc/
+- /update/*
+
+- /factory-snapshot/
+- /factory-tested/
+
+- /factory/
+- /tumbleweed/
+- /tools/
+- /debug/
+- /source/
+- /projects/
+- /ports/
+
+# /repositories/
+
++ /repositories/multimedia:/
+- /repositories/GNOME:/
+- /repositories/KDE:/
+- /repositories/KDE:/KDE3
+- /repositories/KDE:/Netbook
+- /repositories/LibreOffice:/Stable/
++ /repositories/mozilla/
++ /repositories/mozilla:/
++ /repositories/Education/
++ /repositories/server:/
++ /repositories/games/
+- /repositories/openSUSE:/
+- /repositories/openSUSE:/Tools:/Unstable
+- /repositories/openSUSE:/Tools:/MeeGo
+- /repositories/openSUSE:/infrastructure
+- /repositories/GNOME:/Apps:
+- /repositories/devel:/
+- /repositories/devel:/languages:/
+
+- /repositories/**/src/
+- /repositories/**/nosrc/
+- /repositories/**/repoview/
+- /repositories/**/repodata/index.html
+- /repositories/**/repodata/latest-feed.xml
+
+# unpopular repos
+- /repositories/**/*Factory*/
+- /repositories/**/*10.0/
+- /repositories/**/*10.1/
+- /repositories/**/*10.2/
+- /repositories/**/*10.3/
+- /repositories/**/*11.0/
+- /repositories/**/*11.1/
+- /repositories/**/*11.2/
+- /repositories/**/*11.3/
+- /repositories/**/Fedora*/
+- /repositories/**/Mandriva*/
+- /repositories/**/RedHat_RHEL-5
+- /repositories/**/SLES_9*/
+- /repositories/**/SLE10
+- /repositories/**/SLE_10
+- /repositories/**/SLE-10
+- /repositories/**/SLE-11
+- /repositories/**/SLE_11
+- /repositories/**/SLE-11-SP1
+- /repositories/**/SLE_11_SP1
+- /repositories/**/RHEL*/
+- /repositories/**/Debian*/
+- /repositories/**/CentOS*/
+- /repositories/**/*Ubuntu*/
+
+- /repositories/**/snapshots:/
+- /repositories/**/UNSTABLE/
+- /repositories/**/UNSTABLE:/
+- /repositories/**/test-updates:/
+- /repositories/**/Playground/
+- /repositories/**/images
+
+- /repositories/*
+
+
+

@@ -1,0 +1,27 @@
+# comments and empty lines are allowed...
+# hints: 
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
+- /opensuse/repositories
+- 10.3-test/***
+- 11.0-test/***
+- 11.1-test/***
+- 11.2-test/***
+- /opensuse/distribution/10.2/
+- /opensuse/distribution/10.3/
+- /opensuse/debug
+- /opensuse/source
+- /opensuse/factory
+- /opensuse/factory-snapshot
+- *Milestone*/iso/*DVD-Build*-x86_64.iso
+- *Milestone*/iso/*DVD-Build*-i586.iso
+- *Milestone*/iso/*DVD-Build*-ppc.iso
+- /opensuse/ports/armv7hl/debug
+- /opensuse/ports/armv7hl/factory
+- /opensuse/ports/armv7hl/source
+- /opensuse/ports/ppc/debug
+- /opensuse/ports/ppc/factory
+- /opensuse/ports/ppc/source
++ *

@@ -1,0 +1,114 @@
+# comments and empty lines are allowed...
+# hints: 
+# - avoid trailing spaces!!
+# - include all upper directories, or the one you want to include will be dropped.
+# - intelligently use apachetop on download.opensuse.org to find out what causes the most traffic
+
++ /distribution/12.2
++ /distribution/.timestamp*
+- /distribution/*
+
+- /distribution/11.1/repo/**/ppc/
+
+- *debuginfo*
+- *debugsource*
+
++ /update/12.2-non-oss
++ /update/12.2
+- /update/12.1
+- /update/11.4
+- /update/**/rpm/ppc/
+- /update/**/rpm/ppc64/
+- /update/**/rpm/src/
+- /update/**/repoparts/
+- /update/**/src/
+- /update/**/nosrc/
+- /update/*
+
+- /factory-snapshot/
+- /factory-tested
+
++ /repositories/
+- /factory/
+- /tumbleweed/
+- /tools/
+- /debug/
+- /source/
+- /projects/
+- /ports/
+
++ /repositories/GNOME:/
++ /repositories/GNOME:/Apps
++ /repositories/GNOME:/STABLE:/
++ /repositories/GNOME:/STABLE:/3.6
+- /repositories/GNOME:/STABLE:/*
+- /repositories/GNOME:/*
++ /repositories/KDE:/
+- /repositories/KDE:/Qt*
+- /repositories/KDE:/KDE3
+- /repositories/KDE:/KDE3:/
+- /repositories/KDE:/Unstable:/
++ /repositories/KDE:/Release:/
++ /repositories/KDE:/Extra/
+- /repositories/KDE:/Release:/46*
+- /repositories/KDE:/Release:/47*
++ /repositories/KDE:/Release:/48*
++ /repositories/KDE:/Release:/49
+- /repositories/KDE:/Active
+- /repositories/KDE:/Medias
+- /repositories/KDE:/Netbook
+- /repositories/KDE:/*
++ /repositories/libreoffice:/STABLE
++ /repositories/mozilla/
++ /repositories/mozilla:/
++ /repositories/Emulators:/
+# ETOOBIG
+# /repositories/games/
++ /repositories/filesystems/
+# + /repositories/server:/
+
+- /repositories/**/src/
+- /repositories/**/nosrc/
+- /repositories/**/repoview/
+- /repositories/**/repodata/index.html
+- /repositories/**/repodata/latest-feed.xml
+
+# unpopular repos
+- /repositories/**/*Factory*/
+- /repositories/**/*10.0/
+- /repositories/**/*10.1/
+- /repositories/**/*10.2/
+- /repositories/**/*10.3/
+- /repositories/**/*11.0*
+- /repositories/**/*11.1*
+- /repositories/**/*11.2*
+- /repositories/**/SLE-11/
+- /repositories/**/SLE_11*
+- /repositories/**/SLE-10/
+- /repositories/**/SLE_10/
+- /repositories/**/*11.3/
+- /repositories/**/SLES9
+- /repositories/**/RedHat_RHEL-5
+- /repositories/**/Fedora*/
+- /repositories/**/openSUSE_Tumbleweed*
+- /repositories/**/Mandriva*/
+- /repositories/**/SLES_9*/
+- /repositories/**/RHEL*/
+- /repositories/**/Debian*/
+- /repositories/**/CentOS*/
+- /repositories/**/*Ubuntu*/
+- /repositories/**/SLE_1*/
+- /repositories/**/images
+
+- /repositories/**/snapshots:/
+- /repositories/**/UNSTABLE/
+- /repositories/**/UNSTABLE:/
+- /repositories/**/test-updates:/
+- /repositories/**/Playground/
+- /repositories/**/DO_NOT_USE/
+
+- /repositories/*
+- /repositories/**/experimental
+- /repositories/**/alpha
+- /repositories/**/beta*
+- /repositories/**/legacy
